@@ -87,16 +87,6 @@ ynh_script_progression --message="Updating PHP dependencies..."
 ynh_exec_warn_less ynh_install_composer
 
 #=================================================
-# UPDATE A CONFIG FILE
-#=================================================
-# ynh_script_progression --message="Updating a configuration file..."
-
-# ynh_add_config --template="../conf/.env" --destination="$install_dir/.env"
-
-# chmod 400 "$install_dir/.env"
-# chown $app "$install_dir/.env"
-
-#=================================================
 # END OF SCRIPT
 #=================================================
 

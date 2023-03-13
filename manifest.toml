@@ -34,7 +34,7 @@ ram.runtime = "50M"
 
     [install.init_main_permission]
     type = "group"
-    default = "all_users"
+    default = "admins"
 
     [install.admin]
     type = "user"
@@ -53,5 +53,5 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.2-bcmath"
+    packages = "php8.2-xml php8.2-bcmath"
 
