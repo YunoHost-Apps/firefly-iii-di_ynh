@@ -1,0 +1,57 @@
+packaging_format = 2
+
+id = "firefly-iii-di"
+name = "Firefly III Importer"
+description.en = "Self-hosted financial manager"
+
+version = "1.2.1~ynh1"
+
+maintainers = []
+
+[upstream]
+license = "AGPL-3.0"
+website = "https://docs.firefly-iii.org/data-importer/"
+admindoc = "https://docs.firefly-iii.org/data-importer/how-to-use/"
+code = "https://github.com/firefly-iii/data-importer"
+
+[integration]
+yunohost = ">= 11.1.15"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/fiidi"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "all_users"
+
+    [install.admin]
+    type = "user"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/firefly-iii/data-importer/archive/refs/tags/v1.2.1.tar.gz"
+        sha256 = "0905920292b642720c357b9909c035a03d189479d0ccca0b7b0f9f44b4bb2f56"
+
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "php8.2-bcmath"
+
