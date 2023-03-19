@@ -4,7 +4,7 @@ id = "firefly-iii-di"
 name = "Firefly III Importer"
 description.en = "Self-hosted financial manager"
 
-version = "1.2.1~ynh1"
+version = "1.2.2~ynh1"
 
 maintainers = []
 
@@ -41,8 +41,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/firefly-iii/data-importer/archive/refs/tags/v1.2.1.tar.gz"
-        sha256 = "0905920292b642720c357b9909c035a03d189479d0ccca0b7b0f9f44b4bb2f56"
+        url = "https://github.com/firefly-iii/data-importer/archive/refs/tags/v1.2.2.tar.gz"
+        sha256 = "2e69f8b68ab8fd0f078e585feb2128b99bf2dd3088c057d2dbd1c75a20860732"
 
 
     [resources.system_user]
