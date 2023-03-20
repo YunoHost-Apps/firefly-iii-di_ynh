@@ -2,7 +2,8 @@ packaging_format = 2
 
 id = "firefly-iii-di"
 name = "Firefly III Importer"
-description.en = "Self-hosted financial manager"
+description.en = "Firefly III Data Importer"
+description.en = "Importateur de données Firefly III"
 
 version = "1.2.2~ynh1"
 
