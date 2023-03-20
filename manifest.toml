@@ -3,7 +3,7 @@ packaging_format = 2
 id = "firefly-iii-di"
 name = "Firefly III Importer"
 description.en = "Firefly III Data Importer"
-description.en = "Importateur de données Firefly III"
+description.fr = "Importateur de données Firefly III"
 
 version = "1.2.2~ynh1"
 
