@@ -37,7 +37,7 @@ If your Firefly-III server is installed as a YunoHost app, please note:
 * Official app website: <https://docs.firefly-iii.org/data-importer/>
 * Official admin documentation: <https://docs.firefly-iii.org/data-importer/how-to-use/>
 * Upstream app code repository: <https://github.com/firefly-iii/data-importer>
-* YunoHost documentation for this app: <https://yunohost.org/app_firefly-iii-di>
+* YunoHost Store: <https://apps.yunohost.org/app/firefly-iii-di>
 * Report a bug: <https://github.com/YunoHost-Apps/firefly-iii-di_ynh/issues>
 
 ## Developer info
