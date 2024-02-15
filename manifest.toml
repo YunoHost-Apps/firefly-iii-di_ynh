@@ -42,9 +42,9 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/firefly-iii/data-importer/archive/refs/tags/v1.4.0.tar.gz"
-        sha256 = "23b8cbba1bfcc8c50398dcce90df39b0a821c6f198e3221f0ec2d8fe112fb3e3"
-        autoupdate.strategy = "latest_github_tag"
+        url = "https://github.com/firefly-iii/data-importer/archive/refs/tags/v1.4.3.tar.gz
+        sha256 = "17b47a81e1b2f304c968a74265ca5aa33b0cd2992ca5c38507bc17729165755c"
+        autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
 
