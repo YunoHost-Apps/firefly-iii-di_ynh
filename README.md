@@ -16,8 +16,10 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Firefly III Data Importer is the nr. 1 tool to import data into [Firefly III](https://www.firefly-iii.org/). This tools helps you import transactions from files or bank APIs into your
-Firefly-III server. Please follow the documentation at https://docs.firefly-iii.org/data-importer/.
+Firefly III Data Importer is the nr. 1 tool to import data into [Firefly III](https://www.firefly-liii.org/).  
+This tools helps you import transactions from files or bank APIs into your Firefly-III server.  
+The following two links will take you to the official documentation: [installation](https://docs.firefly-iii.org/how-to/data-importer/installation/self-managed/), [configuration](https://docs.firefly-iii.org/how-to/data-importer/how-to-configure/) and [upgrade](https://docs.firefly-iii.org/how-to/data-importer/upgrade/self-managed/).
+
 
 If your Firefly-III server is installed as a YunoHost app, please note:
 
@@ -25,17 +27,14 @@ If your Firefly-III server is installed as a YunoHost app, please note:
 
 - When configuring the Data Importer, use the public Firefly-III domain and path, not *localhost*, even if both services are on the same machine.
 
-
-**Shipped version:** 1.2.2~ynh1
-
 ## Screenshots
 
 ![Screenshot of Firefly III Importer](./doc/screenshots/firefly-iii-di-start-screen.png)
 
 ## Documentation and resources
 
-* Official app website: <https://docs.firefly-iii.org/data-importer/>
-* Official admin documentation: <https://docs.firefly-iii.org/data-importer/how-to-use/>
+* Official app website: <https://docs.firefly-iii.org/explanation/data-importer/about/introduction/>
+* Official admin documentation: <https://docs.firefly-iii.org/how-to/data-importer/installation/self-managed/>
 * Upstream app code repository: <https://github.com/firefly-iii/data-importer>
 * YunoHost documentation for this app: <https://yunohost.org/app_firefly-iii-di>
 * Report a bug: <https://github.com/YunoHost-Apps/firefly-iii-di_ynh/issues>
