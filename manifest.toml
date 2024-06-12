@@ -5,7 +5,7 @@ name = "Firefly III Importer"
 description.en = "Firefly III Data Importer"
 description.fr = "Importateur de données Firefly III"
 
-version = "1.2.2~ynh1"
+version = "1.5.2~ynh1"
 
 maintainers = []
 
@@ -42,8 +42,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/firefly-iii/data-importer/archive/refs/tags/v1.2.2.tar.gz"
-        sha256 = "2e69f8b68ab8fd0f078e585feb2128b99bf2dd3088c057d2dbd1c75a20860732"
+        url = "https://github.com/firefly-iii/data-importer/releases/download/v1.5.2/DataImporter-v1.5.2.tar.gz"
+        sha256 = "0cbc821f9052cf03cebad2870a58527986a1d36077bfa60829c99f00b9919ca3"
 
     [resources.system_user]
 
@@ -53,4 +53,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.2-xml php8.2-bcmath"
+    packages = "php8.3-xml php8.3-bcmath"
