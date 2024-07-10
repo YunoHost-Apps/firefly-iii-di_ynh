@@ -1,8 +1,6 @@
 #!/bin/bash
 
 #=================================================
-# GENERIC START
-#=================================================
 # IMPORT GENERIC HELPERS
 #=================================================
 
@@ -15,12 +13,6 @@ source /usr/share/yunohost/helpers
 
 email=$(ynh_user_get_info --username=$admin --key=mail)
 timezone="$(cat /etc/timezone)"
-
-#=================================================
-# CHECK VERSION
-#=================================================
-
-upgrade_type=$(ynh_check_app_version_changed)
 
 #=================================================
 # ENSURE DOWNWARD COMPATIBILITY
@@ -48,43 +40,32 @@ fi
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
+ynh_script_progression --message="Upgrading source files..."
 
-if [ "$upgrade_type" == "UPGRADE_APP" ]
-then
-	ynh_script_progression --message="Upgrading source files..."
-
-	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$install_dir" --keep=".env storage/upload storage/export"
-fi
+# Download, check integrity, uncompress and patch the source from app.src
+ynh_setup_source --dest_dir="$install_dir" --keep=".env storage/upload storage/export"
 
 chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
-chmod -R 775 $install_dir/storage
+chown -R "$app:www-data" "$install_dir"
+chmod -R 775 "$install_dir/storage"
 
-#=================================================
-# PHP-FPM CONFIGURATION
-#=================================================
-ynh_script_progression --message="Upgrading PHP-FPM configuration..."
-
-# Create a dedicated PHP-FPM config
-ynh_add_fpm_config --phpversion=$phpversion --usage=$fpm_usage --footprint=$fpm_footprint
-
-#=================================================
-# NGINX CONFIGURATION
-#=================================================
-ynh_script_progression --message="Upgrading NGINX web server configuration..."
-
-# Create a dedicated NGINX config
-ynh_add_nginx_config
-
-#=================================================
-# SPECIFIC UPGRADE
 #=================================================
 # UPDATE PHP DEPENDENCIES
 #=================================================
-ynh_script_progression --message="Updating PHP dependencies..."
+ynh_script_progression --message="Installing composer dependencies..."
 
-ynh_exec_warn_less ynh_install_composer
+ynh_exec_warn_less ynh_install_composer --phpversion="$phpversion" --workdir="$install_dir"
+
+#=================================================
+# REAPPLY SYSTEM CONFIGURATIONS
+#=================================================
+ynh_script_progression --message="Upgrading system configurations related to $app..." --weight=1
+
+# Create a dedicated PHP-FPM config
+ynh_add_fpm_config --phpversion="$phpversion" --usage="$fpm_usage" --footprint="$fpm_footprint"
+
+# Create a dedicated NGINX config
+ynh_add_nginx_config
 
 #=================================================
 # END OF SCRIPT

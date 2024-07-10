@@ -1,3 +1,5 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
 packaging_format = 2
 
 id = "firefly-iii-di"
@@ -41,10 +43,10 @@ ram.runtime = "50M"
     type = "user"
 
 [resources]
-        [resources.sources.main]
-        url = "https://github.com/firefly-iii/data-importer/archive/refs/tags/v1.5.2.tar.gz"
-        sha256 = "ee1debfe137c04e4152bf7ebb6bb50cbd6c4ab2d7dd64bee05b93f7e6c25f7d7"
-        autoupdate.strategy = "latest_github_tag"
+    [resources.sources.main]
+    url = "https://github.com/firefly-iii/data-importer/archive/refs/tags/v1.5.2.tar.gz"
+    sha256 = "ee1debfe137c04e4152bf7ebb6bb50cbd6c4ab2d7dd64bee05b93f7e6c25f7d7"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
@@ -54,4 +56,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-xml php8.3-bcmath"
+    packages = [
+        "php8.3-xml",
+        "php8.3-bcmath",
+    ]
