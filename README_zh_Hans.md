@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Firefly III Importer
 
-[![集成程度](https://dash.yunohost.org/integration/firefly-iii-di.svg)](https://dash.yunohost.org/appci/app/firefly-iii-di) ![工作状态](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/firefly-iii-di.svg)](https://ci-apps.yunohost.org/ci/apps/firefly-iii-di/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.maintain.svg)
 
 [![使用 YunoHost 安装 Firefly III Importer](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=firefly-iii-di)
 
@@ -26,7 +26,7 @@ If your Firefly-III server is installed as a YunoHost app, please note:
 - When configuring the Data Importer, use the public Firefly-III domain and path, not *localhost*, even if both services are on the same machine.
 
 
-**分发版本：** 1.2.2~ynh1
+**分发版本：** 1.5.4~ynh1
 
 ## 截图
 
