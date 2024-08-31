@@ -42,9 +42,10 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/firefly-iii/data-importer/archive/refs/tags/v1.5.4.tar.gz"
-        sha256 = "c952ce021a3775f48909050357217ad274f2feed44542a720693be72ad17b3d1"
-        autoupdate.strategy = "latest_github_tag"
+        url = "https://github.com/firefly-iii/data-importer/releases/download/v1.5.4/DataImporter-v1.5.4.tar.gz"
+        sha256 = "f11ce60cbc5b4560bebf3c0fd6c1befbd92b1a58a12dac4fbcc7e8c79c4b590a"
+        autoupdate.strategy = "latest_github_release"
+        autoupdate.asset = "^DataImporter-v.*.tar.gz$"
 
     [resources.system_user]
 
