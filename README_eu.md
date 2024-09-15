@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Firefly III Importer YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/firefly-iii-di.svg)](https://dash.yunohost.org/appci/app/firefly-iii-di) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/firefly-iii-di.svg)](https://ci-apps.yunohost.org/ci/apps/firefly-iii-di/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.maintain.svg)
 
 [![Instalatu Firefly III Importer YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=firefly-iii-di)
 
@@ -26,7 +26,7 @@ If your Firefly-III server is installed as a YunoHost app, please note:
 - When configuring the Data Importer, use the public Firefly-III domain and path, not *localhost*, even if both services are on the same machine.
 
 
-**Paketatutako bertsioa:** 1.2.2~ynh1
+**Paketatutako bertsioa:** 1.5.6~ynh1
 
 ## Pantaila-argazkiak
 
