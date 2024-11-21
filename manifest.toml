@@ -16,7 +16,7 @@ admindoc = "https://docs.firefly-iii.org/data-importer/how-to-use/"
 code = "https://github.com/firefly-iii/data-importer"
 
 [integration]
-yunohost = ">= 11.1.15"
+yunohost = ">= 12.0.7"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -54,4 +54,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.2-xml php8.2-bcmath"
+    packages = "php8.3-xml php8.3-bcmath"
