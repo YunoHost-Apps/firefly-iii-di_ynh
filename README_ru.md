@@ -5,7 +5,9 @@
 
 # Firefly III Importer для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/firefly-iii-di.svg)](https://ci-apps.yunohost.org/ci/apps/firefly-iii-di/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/firefly-iii-di)](https://ci-apps.yunohost.org/ci/apps/firefly-iii-di/)
+![Состояние работы](https://apps.yunohost.org/badge/state/firefly-iii-di)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/firefly-iii-di)
 
 [![Установите Firefly III Importer с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=firefly-iii-di)
 

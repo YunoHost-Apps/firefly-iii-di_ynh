@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Firefly III Importer
 
-[![集成程度](https://dash.yunohost.org/integration/firefly-iii-di.svg)](https://ci-apps.yunohost.org/ci/apps/firefly-iii-di/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/firefly-iii-di)](https://ci-apps.yunohost.org/ci/apps/firefly-iii-di/)
+![工作状态](https://apps.yunohost.org/badge/state/firefly-iii-di)
+![维护状态](https://apps.yunohost.org/badge/maintained/firefly-iii-di)
 
 [![使用 YunoHost 安装 Firefly III Importer](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=firefly-iii-di)
 

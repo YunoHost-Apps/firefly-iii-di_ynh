@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Firefly III Importer voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/firefly-iii-di.svg)](https://ci-apps.yunohost.org/ci/apps/firefly-iii-di/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/firefly-iii-di)](https://ci-apps.yunohost.org/ci/apps/firefly-iii-di/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/firefly-iii-di)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/firefly-iii-di)
 
 [![Firefly III Importer met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=firefly-iii-di)
 

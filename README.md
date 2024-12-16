@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Firefly III Importer for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/firefly-iii-di.svg)](https://ci-apps.yunohost.org/ci/apps/firefly-iii-di/) ![Working status](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/firefly-iii-di)](https://ci-apps.yunohost.org/ci/apps/firefly-iii-di/)
+![Working status](https://apps.yunohost.org/badge/state/firefly-iii-di)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/firefly-iii-di)
 
 [![Install Firefly III Importer with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=firefly-iii-di)
 

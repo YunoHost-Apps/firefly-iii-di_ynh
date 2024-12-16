@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Firefly III Importer untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/firefly-iii-di.svg)](https://ci-apps.yunohost.org/ci/apps/firefly-iii-di/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/firefly-iii-di)](https://ci-apps.yunohost.org/ci/apps/firefly-iii-di/)
+![Status kerja](https://apps.yunohost.org/badge/state/firefly-iii-di)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/firefly-iii-di)
 
 [![Pasang Firefly III Importer dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=firefly-iii-di)
 
