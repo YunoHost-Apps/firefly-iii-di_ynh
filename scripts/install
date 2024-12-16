@@ -7,14 +7,10 @@ source /usr/share/yunohost/helpers
 # RETRIEVE ARGUMENTS FROM THE MANIFEST
 #=================================================
 
-random_key=$(ynh_string_random --length=32)
 email=$(ynh_user_get_info --username=$admin --key=mail)
 timezone="$(cat /etc/timezone)"
 
-#=================================================
-# STORE SETTINGS FROM MANIFEST
-#=================================================
-
+random_key=$(ynh_string_random --length=32)
 ynh_app_setting_set --key=random_key --value=$random_key
 
 #=================================================
@@ -24,25 +20,15 @@ ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir=$install_dir
 
-chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
-
 #=================================================
-# PHP-FPM CONFIGURATION
+# SYSTEM CONFIGURATION
 #=================================================
-ynh_script_progression "Configuring PHP-FPM..."
+ynh_script_progression "Adding system configurations related to $app..."
 
 ynh_config_add_phpfpm
 
-#=================================================
-# NGINX CONFIGURATION
-#=================================================
-ynh_script_progression "Configuring NGINX web server..."
-
 ynh_config_add_nginx
 
-#=================================================
-# SPECIFIC SETUP
 #=================================================
 # INSTALL COMPOSER DEPENDENCIES
 #=================================================

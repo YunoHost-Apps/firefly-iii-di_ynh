@@ -20,8 +20,10 @@ yunohost = ">= 11.2.30"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
+
 ldap = false
 sso = false
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -49,7 +51,6 @@ ram.runtime = "50M"
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset = "^DataImporter-v.*.zip$"
 
-
     [resources.system_user]
 
     [resources.install_dir]
@@ -59,4 +60,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-xml php8.3-bcmath"
+    packages = "php8.3-xml, php8.3-bcmath"
