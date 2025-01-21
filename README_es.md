@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # Firefly III Importer para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/firefly-iii-di.svg)](https://dash.yunohost.org/appci/app/firefly-iii-di) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/firefly-iii-di.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/firefly-iii-di)](https://ci-apps.yunohost.org/ci/apps/firefly-iii-di/)
+![Estado funcional](https://apps.yunohost.org/badge/state/firefly-iii-di)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/firefly-iii-di)
 
 [![Instalar Firefly III Importer con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=firefly-iii-di)
 
@@ -26,7 +28,7 @@ If your Firefly-III server is installed as a YunoHost app, please note:
 - When configuring the Data Importer, use the public Firefly-III domain and path, not *localhost*, even if both services are on the same machine.
 
 
-**Versión actual:** 1.2.2~ynh1
+**Versión actual:** 1.5.7~ynh1
 
 ## Capturas
 
@@ -42,7 +44,7 @@ If your Firefly-III server is installed as a YunoHost app, please note:
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/firefly-iii-di_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/firefly-iii-di_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
