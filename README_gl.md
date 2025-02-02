@@ -28,7 +28,7 @@ If your Firefly-III server is installed as a YunoHost app, please note:
 - When configuring the Data Importer, use the public Firefly-III domain and path, not *localhost*, even if both services are on the same machine.
 
 
-**Versión proporcionada:** 1.5.7~ynh1
+**Versión proporcionada:** 1.6.0~ynh1
 
 ## Capturas de pantalla
 
