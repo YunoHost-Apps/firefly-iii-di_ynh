@@ -8,7 +8,7 @@ source /usr/share/yunohost/helpers
 #=================================================
 
 email=$(ynh_user_get_info --username=$admin --key=mail)
-timezone="$(cat /etc/timezone)"
+timezone="$(timedatectl show --value --property=Timezone)"
 
 random_key=$(ynh_string_random --length=32)
 ynh_app_setting_set --key=random_key --value=$random_key
