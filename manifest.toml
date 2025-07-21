@@ -5,7 +5,7 @@ name = "Firefly III Importer"
 description.en = "Firefly III Data Importer"
 description.fr = "Importateur de données Firefly III"
 
-version = "1.7.6~ynh1"
+version = "1.7.8~ynh1"
 
 maintainers = []
 
@@ -45,8 +45,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/firefly-iii/data-importer/releases/download/v1.7.6/DataImporter-v1.7.6.zip"
-        sha256 = "859d7ffeae9f2d9199d7b68c3384b14694653a7be8527058cff1127d564e358e"
+        url = "https://github.com/firefly-iii/data-importer/releases/download/v1.7.8/DataImporter-v1.7.8.zip"
+        sha256 = "c657ad5a794ef06c58ff50bb43f046a3c0939a265ebe09abdc1006a1cbcb1647"
         in_subdir = false
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset = "^DataImporter-v.*.zip$"
