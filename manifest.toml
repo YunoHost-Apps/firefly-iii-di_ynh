@@ -16,7 +16,7 @@ admindoc = "https://docs.firefly-iii.org/data-importer/how-to-use/"
 code = "https://github.com/firefly-iii/data-importer"
 
 [integration]
-yunohost = ">= 12.1.17"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
