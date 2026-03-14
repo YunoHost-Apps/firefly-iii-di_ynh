@@ -60,7 +60,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.4-xml, php8.4-bcmath, php8.4-intl, php8.4-mbstring"
+    packages = "php8.5-xml, php8.5-bcmath, php8.5-intl, php8.5-mbstring"
 
     [resources.composer]
-    version = "2.9.3"
+    version = "2.9.5"
