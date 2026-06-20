@@ -16,7 +16,7 @@ admindoc = "https://docs.firefly-iii.org/data-importer/how-to-use/"
 code = "https://github.com/firefly-iii/data-importer"
 
 [integration]
-yunohost = ">= 12.1.38"
+yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -63,4 +63,4 @@ ram.runtime = "50M"
     packages = "php8.5-xml, php8.5-bcmath, php8.5-intl, php8.5-mbstring"
 
     [resources.composer]
-    version = "2.9.5"
+    version = "2.10.1"
