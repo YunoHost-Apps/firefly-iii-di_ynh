@@ -5,7 +5,7 @@ name = "Firefly III Importer"
 description.en = "Firefly III Data Importer"
 description.fr = "Importateur de données Firefly III"
 
-version = "2.3.2~ynh1"
+version = "2.3.4~ynh1"
 
 maintainers = []
 
@@ -16,7 +16,7 @@ admindoc = "https://docs.firefly-iii.org/data-importer/how-to-use/"
 code = "https://github.com/firefly-iii/data-importer"
 
 [integration]
-yunohost = ">= 12.1.38"
+yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -45,8 +45,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/firefly-iii/data-importer/releases/download/v2.3.2/DataImporter-v2.3.2.zip"
-        sha256 = "8511ca8c296f446b96fee49337c1a93542f1acdb62b7299547af625b8097bbb0"
+        url = "https://github.com/firefly-iii/data-importer/releases/download/v2.3.4/DataImporter-v2.3.4.zip"
+        sha256 = "8c351ef95db5ca1e24c10e9bacc652381a82eae24031539b8ab8784b7469d754"
         in_subdir = false
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset = "^DataImporter-v.*.zip$"
@@ -63,4 +63,4 @@ ram.runtime = "50M"
     packages = "php8.5-xml, php8.5-bcmath, php8.5-intl, php8.5-mbstring"
 
     [resources.composer]
-    version = "2.9.5"
+    version = "2.10.1"
