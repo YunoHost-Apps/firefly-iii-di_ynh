@@ -63,4 +63,4 @@ ram.runtime = "50M"
     packages = "php8.5-xml, php8.5-bcmath, php8.5-intl, php8.5-mbstring"
 
     [resources.composer]
-    version = "2.10.2"
+    version = "2.10.3"
